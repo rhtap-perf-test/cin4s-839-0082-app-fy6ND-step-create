@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-adru
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0082-tenant/cin4s-839-0082-app/devfile-sample-adru@sha256:335dcf62ba85e325069762d1eb8555e2d4f6c18971fa334539fa62b5f36ea3ce
+        name: my-nodejs
+        resources: {}
+status: {}
