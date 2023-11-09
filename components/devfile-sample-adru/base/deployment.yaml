@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-adru
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0082-tenant/cin4s-839-0082-app/devfile-sample-adru@sha256:335dcf62ba85e325069762d1eb8555e2d4f6c18971fa334539fa62b5f36ea3ce
         name: my-nodejs
         ports:
         - containerPort: 3001
